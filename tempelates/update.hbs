@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../css/update.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+</head>
+
+<body>
+    <h1>Luis Angel Cruz López</h1>
+
+    <form action="/update" method="post" >
+
+        <div class="headingsContainer">
+            <h3>Update account</h3>
+            <p>Update with your username and password</p>
+        </div>
+
+        <div class="mainContainer">
+            <label for="name">Edit username</label>
+            <input type="text" name="name" placeholder="Name">
+            <br><br>
+
+            <label for="password">Edit password</label>
+            <input type="password" name="password" placeholder="Password">
+            <br>
+            
+            <button type="submit">Update</button>
+        </div>
+    </form>
+
+    <form action="/delete" method="post" class="FormDelete">
+        <div class="headingsContainer">
+            <h3>Delete account</h3>
+            <p>Delete your account</p>
+        </div>
+
+        <div class="formdelete">
+            <button type="submit">Delete account</button>
+        </div>
+    </form>
+    <p class="login"><a href="/">Go back to login here</a></p>
+</body>
+</html>
