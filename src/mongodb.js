@@ -1,5 +1,4 @@
 const mongoose=require("mongoose")
-//const MONGODB_URI= "mongodb+srv://LuisAngel:1a+2b+3c-4d-cbtis@cluster.xl3vevl.mongodb.net/database?retryWrites=true&w=majority";
 
 mongoose.connect("mongodb+srv://LuisAngel:1a+2b+3c-4d-cbtis@cluster.xl3vevl.mongodb.net/database?retryWrites=true&w=majority")
 .then(()=>{

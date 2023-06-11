@@ -56,20 +56,6 @@ button:hover{
     padding: 16px;
 }
 
-span.forgotpsd a {
-    float: right;
-    color: whitesmoke;
-    padding-top: 16px;
-}
-
-.forgotpsd a{
-    color: rgb(74, 146, 235);
-}
-  
-.forgotpsd a:link{
-    text-decoration: none;
-}
-
 .register{
     color: white;
     text-align: center;
